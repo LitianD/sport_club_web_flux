@@ -11,7 +11,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Coach {
-    @Id
     private Integer id;
     private String username;
     private String name;
