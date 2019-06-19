@@ -20,3 +20,4 @@ public class GymRouter {
                 .andRoute(DELETE("/fgym/{id}").and(accept(MediaType.APPLICATION_JSON)), handler::delete);
     }
 }
+
