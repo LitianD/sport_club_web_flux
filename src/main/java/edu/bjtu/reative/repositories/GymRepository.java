@@ -1,8 +1,8 @@
 package edu.bjtu.reative.repositories;
 
-import edu.bjtu.reative.models.Book;
+import edu.bjtu.reative.models.Gym;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-public interface BookRepository extends ReactiveMongoRepository<Book, String> {
+public interface GymRepository extends ReactiveMongoRepository<Gym, String> {
 
 }

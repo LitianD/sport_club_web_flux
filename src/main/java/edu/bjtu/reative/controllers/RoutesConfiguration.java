@@ -1,7 +1,5 @@
 package edu.bjtu.reative.controllers;
 
-import edu.bjtu.reative.models.Person;
-import edu.bjtu.reative.repositories.PersonRespository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
